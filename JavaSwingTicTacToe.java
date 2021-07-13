@@ -24,6 +24,8 @@ public class JavaSwingTicTacToe {
     public static void main(String[] args) {
         //Create window and title
         JFrame window = new JFrame("TicTacToe Game");
+        window.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+
         //window size and visibility
         window.setSize(640, 480);
         window.setVisible(true);
