@@ -125,7 +125,6 @@ public class JavaSwingTicTacToe {
             endGame();
         }
         if (row2 && buttons[3].getText().equals("X")) {
-            System.out.println("DOES HAPPEN");
             String scoreOfX = Integer.toString((++scoreX));
             String scoreOfY = Integer.toString((scoreY));
             score.setText("Score: X: " + scoreOfX + " O: " + scoreOfY);
@@ -246,6 +245,7 @@ public class JavaSwingTicTacToe {
             //end game if victory
             endGame();
         }
+
     }
 
 
